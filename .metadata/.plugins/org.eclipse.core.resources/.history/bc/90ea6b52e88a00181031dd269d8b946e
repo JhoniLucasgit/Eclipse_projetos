@@ -1,0 +1,8 @@
+package exemplos;
+
+public class Lampada {
+
+	String tipo;
+	float potencia;
+	
+}

@@ -1,0 +1,19 @@
+package exemplos;
+
+public class Exemplo1 {
+	
+	public static void main(String args[]) {
+		
+		int numero1 = 30;
+		long numero2 = 10L;
+		
+		float numero3 = 33.5f;
+		double numero4 = 51.2;
+		
+		int soma = numero1 + (int) numero2;
+		
+		System.out.println("Olá Mundo!!!");
+		
+	}
+	
+}

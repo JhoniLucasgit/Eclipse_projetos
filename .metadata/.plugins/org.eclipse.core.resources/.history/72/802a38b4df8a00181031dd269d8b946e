@@ -1,0 +1,14 @@
+package exemplos;
+
+public class Exemplo1 {
+	
+	public static void main(String args[]) {
+		
+		int numero = 30;
+		long numero2 = 10L;
+		
+		System.out.println("Olá Mundo!!!");
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+package exemplos;
+
+public class Exemplo1 {
+	
+	public static void main(String args[]) {
+		
+		int numero1 = 30; // int cabe em um long
+		long numero2 = 10L; // long não cabe em um int
+		
+		float numero3 = 33.5f;
+		double numero4 = 51.2;
+		
+		int soma = numero1 + (int) numero2;
+		
+		System.out.println(soma);
+		
+	}
+	
+}
