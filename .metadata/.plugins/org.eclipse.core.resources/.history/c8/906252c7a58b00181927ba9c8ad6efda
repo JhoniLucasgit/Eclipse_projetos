@@ -1,0 +1,28 @@
+package exemplos;
+
+public class Lampada {
+
+	//String fabricante;
+	private float potencia;
+	private boolean estado;
+		
+	void acender() {
+		this.estado = true; 
+	}
+	
+	void apagar() {
+		this.estado = false;
+	}
+	
+	boolean getEstado() {
+		return this.estado;
+	}
+	
+	float getPotencia() {
+		return this.potencia;
+	}
+	
+	void setPotencia(float potencia) {
+		this.potencia = potencia;
+	}
+}

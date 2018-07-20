@@ -2,6 +2,7 @@ package exemplos;
 
 public class Exemplo1 {
 	
+	@SuppressWarnings("unused")
 	public static void main(String args[]) {
 		
 		//tipos primitivos de numeros inteiros

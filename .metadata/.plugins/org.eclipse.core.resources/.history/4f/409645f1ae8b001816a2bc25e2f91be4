@@ -1,0 +1,15 @@
+package exemplos;
+
+public class TestaLampada { 
+	public static void main(String[] args) {
+		
+		Lampada lamp1 = new Lampada();
+		Fabricante fab = new Fabricante();
+		lamp1.setFabricante(fab);
+		//lamp1.acender();
+		
+		//lamp1.setPotencia(60);
+		
+		System.out.println(lamp1.toString());
+	}
+}

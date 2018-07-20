@@ -1,0 +1,8 @@
+package exemplos;
+
+public class TestaLampada {
+	public static void main(String[] args) {
+		Lampada lamp1 = new Lampada();
+		
+	}
+}
